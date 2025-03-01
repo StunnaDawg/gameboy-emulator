@@ -11,6 +11,7 @@
 
 typedef struct {
     uint8_t a, b, c, d, f, h, l;
+    uint16_t sp, pc;
 } Registers;
 
 // typedef struct {
@@ -108,4 +109,4 @@ uint8_t
 //             carry
 //         }
 //     }
-// }
+// }   
